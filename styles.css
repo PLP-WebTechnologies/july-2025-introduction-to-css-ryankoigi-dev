@@ -1,0 +1,87 @@
+/* Reset some default spacing */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation links */
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.nav a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Card sections */
+.card {
+    background: white;
+    border: 2px solid #ccc; /* Border visible */
+    padding: 20px;          /* Inside spacing */
+    margin: 10px;           /* Outside spacing */
+    width: 40%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Card headings */
+.card h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Card paragraphs */
+.card p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Buttons */
+.btn {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
